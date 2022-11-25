@@ -1,0 +1,333 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.headOne
+{
+    max-width: 100%;
+    min-height:8vh;
+    background-color:rgba(238, 242, 242, 0.865) ;
+    display: flex;
+    
+    /* justify-content: end; */
+    
+}
+
+.oneLogo{
+    margin:1vh 0vh 0vh 5vh;
+    width: 5vh;
+    position: relative;
+    animation: moveLogo 15s ease-in-out 1s infinite  ;
+    
+    
+}
+
+
+.first{
+    width: 50%;
+    
+}
+
+.second{
+    width: 50%;
+    display: grid;
+    margin-top: 8px;
+    /* border: 0px 0px 0px 1px solid; */
+    grid-template-columns: 100px 60px 80px 100px;
+    position: relative;
+    justify-content: right;
+    
+    
+    
+}
+.hLink{
+    text-decoration: none;
+    color: rgb(12, 6, 6);
+}
+
+.hLink:hover{
+    color: rgb(123, 124, 125);
+}
+
+.mainHead{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+
+}
+
+.nav{
+    display: grid;
+    grid-template-columns:380px 487px 66vh;
+    padding: 20px;
+
+}
+
+.nikeLogo{
+    width: 10vh;
+    /* margin: 20px; */
+}
+.search{
+    align-items: center;
+    margin-top: 5px;
+    width: 15vw;
+    height: 5vh;
+    border-radius:30px ;
+    padding-left: 10px;
+
+}
+
+.space{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+}
+
+.love{
+    margin-top: -30px;
+    padding-left: 30px;
+}
+
+.thirdR{
+    margin-left: 30px;
+ 
+}
+
+.a {
+	color: #18272F;
+  position: relative;
+  text-decoration: none;
+}
+
+.a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-radius: 4px;
+  background-color: #18272F;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+}
+
+.a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.img{
+    margin-left: 60px;
+    width: 85vw;
+    height: 45vw;
+}
+
+.secTh{
+    margin-top: 20px;
+    /* width: 100%; */
+    /* height: 200px; */
+    text-align: center;
+    /* border: 1px solid; */
+}
+
+.p2{
+    font-size: 55px;
+    font-style: bold;
+    font-weight: 900;
+}
+
+.p3{
+    font-size: larger;
+}
+
+.b1{
+    background-color: black;
+    color: white;
+    width:15vw;
+    height: 8vh;
+    border-radius: 78px ;
+    font-size: large;
+}
+
+.fea{
+    margin: 30px 0px 0px 60px;
+    /* margin-left: 60px; */
+    font-size: larger;
+    font-weight: 800;
+}
+
+.b1:hover{
+background-color: rgb(51, 52, 53);
+cursor: pointer;
+}
+
+.scrollmenu {
+    margin-top: 20px;
+    /* background-color: #333; */
+    /* overflow: auto; */
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    display: flex;
+}
+
+.as{
+    display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  width: 25vw;
+}
+
+.try{
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.as:hover{
+    cursor: pointer;
+    transform:scale(1.08);
+    transition: transform .3s ease-in-out;
+}
+
+.price{
+    margin-left: 20px;
+    font-size: larger;
+    font-weight: 300;
+    color: rgb(4, 2, 2);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.price:hover{
+    cursor: pointer;
+    color: crimson;
+}
+
+.container{
+    margin-top: 50px;
+    display: grid;
+    grid-auto-flow: column;
+    /* grid-template-columns: 100px 100px 100px 100px; */
+    justify-content: space-evenly;
+}
+
+.thr{
+    font-size: 19px;
+    color: rgb(103, 103, 103);
+}
+
+.thr:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.footer1{
+    background-color: black;
+    color: #fff;
+    padding: 40px 0px 0px 10px;
+    /* padding-left: 20px; */
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 155px 197px 100px 120px;
+    justify-content:space-around;
+    /* text-align: left; */
+}
+
+.ftlink{
+    /* padding: 5px; */
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    text-align: left;
+
+}
+
+.ftlink1{
+
+    font-size: 12px;
+    /* font-weight: bold; */
+    text-decoration: none;
+    color: rgb(137, 130, 130);
+    text-align: left;
+
+}
+.uls {
+  
+  
+    list-style-type: none;
+  
+    padding-top: 10px;
+    text-align:left;
+    margin-left: -39px;
+    font-size: 13px;
+    color: rgb(194, 196, 196);
+  }
+
+  .lis{
+    padding: 5px;
+    display: inline;
+  }
+
+  .lis:hover{
+    cursor: pointer;
+    color: #535151;
+  }
+
+  .ftlink1:hover{
+    color: #fff;
+  }
+
+  .footer{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    background-color: black;
+  }
+
+  .two:hover{
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes  moveLogo{
+
+    0%{
+        left: 0px;
+
+    }
+
+    50%{
+
+        left: 300px;
+
+    }
+    100%{
+
+        left: 0px;
+
+    }
+    
+}
