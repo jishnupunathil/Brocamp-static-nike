@@ -162,7 +162,7 @@ cursor: pointer;
     margin-top: 20px;
     white-space: nowrap;
     overflow-y: hidden;
-    overflow-x: scroll;
+    overflow-x: hidden;
     display: flex;
 }
 
